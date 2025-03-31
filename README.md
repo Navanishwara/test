@@ -11,8 +11,6 @@ The goal of this POC is to develop a basic workflow for loan origination. It all
 3. [Technical Stack](#technical-stack)
 4. [Setup Instructions](#setup-instructions)
 5. [Step-by-Step Workflow](#step-by-step-workflow)
-6. [Technical Considerations](#technical-considerations)
-7. [Future Enhancements](#future-enhancements)
 
 ---
 
