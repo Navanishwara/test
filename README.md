@@ -69,3 +69,42 @@ This POC provides:
    ```bash
    git clone <repository-url>
    cd LoanOriginationWorkflow
+### 2.Setup PostgreSQL database:
+
+- Create a database loan_origination.
+- Import schema.sql from the project folder to initialize tables.
+
+### 3.Backend setup:
+- Open the project in Visual Studio 2022.
+- Configure database connection string in appsettings.json.
+- Build and run the backend API project.
+
+### 4.Frontend setup:
+- Open the frontend project in VS Code.
+- Run:
+
+ ``` bash
+  npm install
+  ng serve
+```
+- Access the application at http://localhost:4200.
+
+## Step-by-Step Workflow
+### 1.Login: Employees log in using a secure 4-digit PIN.
+- Select a preferred language (English, Spanish, French).
+- View a personalized welcome message.
+### 2.Search Customer: Search by first name, last name, and DOB.
+- If not found, add a new customer with validated details.
+
+### 3.Add Employment Details: Input company name, net income, and last salary date.
+
+### 4.Loan Application:
+- Suggested Loan = Net Income / 3 (rounded).
+- Maximum Loan = Net Income / 2.
+- Modify loan amount and finalize the application.
+### 5.View Loan History:
+- Review previous loan applications, payment transactions, and statuses.
+
+### 6.Backend API Integration:
+- APIs handle data storage and retrieval.
+- Caching enhances performance.
